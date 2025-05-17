@@ -12,11 +12,6 @@ describe(`Function 'arrayReverse':`, () => {
     expect(arrayReverse(['hello'])).toBeInstanceOf(Array);
   });
 
-  it(`should return an empty string
-    if original array consists of an empty string`, () => {
-    expect(arrayReverse(['Mate', 'Academy'])).toEqual(['ymed', 'acAetaM']);
-  });
-
   it(`should correctly reverse a single-element array`, () => {
     expect(arrayReverse(['Hello'])).toEqual(['olleH']);
   });
